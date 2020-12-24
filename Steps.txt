@@ -1,0 +1,13 @@
+DEVELOPMENT PROCESS
+1. Update db configs in application.properties
+2. Create Employee entity
+3. Create DAO interface
+4. Create DAO implementation
+5. Create REST controller to use DAO
+
+REST CRUD functionalities
+1. Get list of employees
+2. Get single employee by ID
+3. Add a new employee
+4. Update an existing employee
+5. Delete an existing employee
