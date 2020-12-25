@@ -8,7 +8,7 @@ REST API with Spring Boot that connects to a database
 4. Create DAO implementation
 5. Create REST controller to use DAO
 
-# REST CRUD FUNCTIONALITIES
+# REST Clients should be able to 
 *  Get list of employees
 *  Get single employee by ID
 *  Add a new employee
