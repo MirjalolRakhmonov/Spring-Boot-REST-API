@@ -8,8 +8,6 @@ import org.hibernate.Session;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
-
 import com.mirjalolcode.springboot.cruddemo.entity.Employee;
 
 @Repository
@@ -54,7 +52,6 @@ public class EmployeeDAOHibernateImpl implements EmployeeDAO {
 		Session currentSession=entityManager.unwrap(Session.class);
 		
 		currentSession.saveOrUpdate(theEmployee);
-		
 	}
 
 	@Override

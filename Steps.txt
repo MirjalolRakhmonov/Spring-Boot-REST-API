@@ -11,3 +11,6 @@ REST CRUD functionalities
 3. Add a new employee
 4. Update an existing employee
 5. Delete an existing employee
+
+SERVICE METHODS(Layer) for REST CRUD functionalities
+EmployeeRESTController<-->EmployeeService<-->EmployeeDAO
