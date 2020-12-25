@@ -16,4 +16,4 @@ REST API with Spring Boot that connects to a database
 *  Delete an existing employee
 
 # SERVICE METHODS(Layer) for REST CRUD functionalities
-*EmployeeRESTController<-->EmployeeService<-->EmployeeDAO
+* EmployeeRESTController<-->EmployeeService<-->EmployeeDAO
